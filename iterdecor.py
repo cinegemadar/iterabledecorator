@@ -25,12 +25,15 @@ if __name__ == "__main__":
 
     @Iterable
     class IterTest:
-        def __init__(self):
-            self.member1 = 1
-            self.member2 = "one"
-            self.member4 = object()
-            self.member5 = None
-
+        def __init__(self, obj=None):
+            if obj:
+                self.copyCtr(obj)
+            else:
+                self.member1 = 1
+                self.member2 = "one"
+                self.member4 = object()
+                self.member5 = None
+                
         def resetMembers(self, member1, member2, member3, member4, member5):
             self.member1 = member1
             self.member2 = member2
