@@ -8,7 +8,9 @@ long_description = (here / "README.md").read_text(encoding="utf-8")
 
 setup(
     name="iterdecor",  # Required
-    version="0.0.2",  # Required
+    version="0.0.3",  # Required
+    author="David Balogh",
+    author_email="david.balogh@gmail.com"
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/cinegemadar/iterabledecorator/",
