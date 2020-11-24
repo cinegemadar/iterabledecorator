@@ -10,7 +10,7 @@ setup(
     name="iterdecor",  # Required
     version="0.0.3",  # Required
     author="David Balogh",
-    author_email="david.balogh@gmail.com"
+    author_email="david.balogh@gmail.com",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/cinegemadar/iterabledecorator/",
